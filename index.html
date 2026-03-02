@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豌豆手作 | wandoo doll</title>
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入外部CSS样式文件 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <!-- LOGO区域（已更新为“豌豆手作”） -->
+        <div class="logo">
+            <img src="images/logo.png" alt="豌豆手作LOGO">
+            <div class="logo-text">豌豆手作<span>玩偶</span></div>
+        </div>
+        <!-- 右侧：语言切换 + 导航菜单 -->
+        <div class="nav-right">
+            <button class="lang-switch" id="langZh">中</button>
+            <button class="lang-switch" id="langEn">EN</button>
+            <div class="nav-menu">
+                <a href="#about">关于我</a>
+                <a href="#works">作品</a>
+                <a href="#contact">联系我</a>
+            </div>
+            <!-- 移动端汉堡菜单 -->
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 头部Banner -->
+    <section class="banner">
+        <div class="banner-text zh-content">
+            <h1>用针线编织温柔</h1>
+            <p>每一只玩偶，都藏着手工的温度</p>
+        </div>
+        <div class="banner-text en-content">
+            <h1>Weave Warmth with Needle and Thread</h1>
+            <p>Every doll hides the warmth of handcraft</p>
+        </div>
+    </section>
+
+    <!-- 个人介绍区（调整到最上方） -->
+    <section id="about" class="container about">
+        <div class="about-img">
+            <img src="images/avatar.jpg" alt="个人头像">
+        </div>
+        <div class="about-text">
+            <h2 class="zh-content">关于我</h2>
+            <h2 class="en-content">About Me</h2>
+            <p class="zh-content">
+                大家好，我是豌豆，一名专注针织/布艺玩偶创作的手工博主。
+            </p>
+            <p class="zh-content">
+                这里是我的个人小站，欢迎你的光临。
+            </p>
+            <p class="zh-content">
+                从2018年开始，我用一针一线编织属于生活的温柔，每一只玩偶都融入了独特的设计巧思与手工温度，希望我的作品能给你带来治愈与美好。
+            </p>
+            <p class="en-text en-content">
+                Hello, I'm Wandoo, a handmade blogger specializing in knitting/fabric doll creation.
+                This is my personal website, welcome to visit.
+                Since 2018, I have woven the warmth of life with every stitch and thread. Each doll incorporates unique design ingenuity and handcrafted warmth, hoping my works can bring you healing and joy.
+            </p>
+        </div>
+    </section>
+
+    <!-- 作品展示区（调整到个人介绍下方） -->
+    <section id="works" class="works">
+        <div class="container">
+            <div class="works-title">
+                <h2 class="zh-content">我的作品</h2>
+                <h2 class="en-content">My Works</h2>
+                <p class="zh-content">每一件都是独一无二的手工创作</p>
+                <p class="en-content">Each piece is a unique handmade creation</p>
+            </div>
+            <!-- 作品分类标签 -->
+            <div class="work-filter">
+                <button class="filter-btn active zh-content">全部</button>
+                <button class="filter-btn active en-content">All</button>
+                <button class="filter-btn zh-content">针织玩偶</button>
+                <button class="filter-btn en-content">Knitted Dolls</button>
+                <button class="filter-btn zh-content">布艺玩偶</button>
+                <button class="filter-btn en-content">Fabric Dolls</button>
+                <button class="filter-btn zh-content">定制款</button>
+                <button class="filter-btn en-content">Customized</button>
+            </div>
+            <!-- 作品网格（仅保留图片，网格布局） -->
+            <div class="work-grid">
+                <!-- 作品卡片1 -->
+                <div class="work-card">
+                    <img src="images/doll1.jpg" alt="治愈系兔子玩偶">
+                </div>
+                <!-- 作品卡片2 -->
+                <div class="work-card">
+                    <img src="images/doll2.jpg" alt="复古布艺小熊">
+                </div>
+                <!-- 作品卡片3 -->
+                <div class="work-card">
+                    <img src="images/doll3.jpg" alt="定制猫咪玩偶">
+                </div>
+                <!-- 作品卡片4 -->
+                <div class="work-card">
+                    <img src="images/doll4.jpg" alt="派对熊猫玩偶">
+                </div>
+                <!-- 作品卡片5 -->
+                <div class="work-card">
+                    <img src="images/doll5.jpg" alt="森林小鹿玩偶">
+                </div>
+                <!-- 作品卡片6 -->
+                <div class="work-card">
+                    <img src="images/doll6.jpg" alt="甜心小羊玩偶">
+                </div>
+                <!-- 作品卡片7 -->
+                <div class="work-card">
+                    <img src="images/doll7.jpg" alt="英伦风小狗玩偶">
+                </div>
+                <!-- 作品卡片8 -->
+                <div class="work-card">
+                    <img src="images/doll8.jpg" alt="魔法小兔玩偶">
+                </div>
+                <!-- 作品卡片9 -->
+                <div class="work-card">
+                    <img src="images/doll9.jpg" alt="夏日西瓜熊玩偶">
+                </div>
+                <!-- 作品卡片10 -->
+                <div class="work-card">
+                    <img src="images/doll10.jpg" alt="绅士小熊玩偶">
+                </div>
+                <!-- 作品卡片11 -->
+                <div class="work-card">
+                    <img src="images/doll11.jpg" alt="童话公主玩偶">
+                </div>
+                <!-- 作品卡片12 -->
+                <div class="work-card">
+                    <img src="images/doll12.jpg" alt="星空猫咪玩偶">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式区（调整到作品区下方） -->
+    <section id="contact" class="container contact">
+        <div class="contact-qrcode">
+            <img src="images/qrcode.jpg" alt="微信二维码">
+            <p class="zh-content" style="margin-top: 10px;">扫码添加微信</p>
+            <p class="en-content" style="margin-top: 10px;">Scan to add WeChat</p>
+        </div>
+        <div class="contact-info">
+            <h2 class="zh-content">联系我</h2>
+            <h2 class="en-content">Contact Me</h2>
+            <ul class="contact-list">
+                <li>
+                    <i class="fab fa-weixin"></i>
+                    <span class="zh-content">微信：wandou-bb</span>
+                    <span class="en-content">WeChat：wandou-bb</span>
+                </li>
+                <li>
+                    <i class="fas fa-book"></i>
+                    <span class="zh-content">小红书：412856487</span>
+                    <span class="en-content">Xiaohongshu：412856487</span>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span class="zh-content">邮箱：415091094@qq.com</span>
+                    <span class="en-content">Email：415091094@qq.com</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-weibo"></i></a>
+            <a href="#"><i class="fas fa-book"></i></a>
+            <a href="#"><i class="fab fa-douyin"></i></a>
+        </div>
+        <p class="zh-content">©2025 豌豆手作玩偶 All Rights Reserved</p>
+        <p class="en-content">©2025 wandoo doll All Rights Reserved</p>
+    </footer>
+
+    <!-- 引入外部JS文件 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
